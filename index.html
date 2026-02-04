@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TranslationStation - Irish Slang</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <h1 class="title">TranslationStation</h1>
+
+      <div class="icons">
+        <div class="icon" data-window="good">
+          <img src="https://github.com/DaynaBrislane/Play/blob/main/good-icon.png?raw=true" alt="Good" />
+          <span>Good</span>
+        </div>
+        <div class="icon" data-window="bad">
+          <img src="https://github.com/DaynaBrislane/Play/blob/main/badicon.png?raw=true" alt="Bad" />
+          <span>Bad</span>
+        </div>
+        <div class="icon" data-window="booze">
+          <img src="https://github.com/DaynaBrislane/Play/blob/main/booze-icon.png?raw=true" alt="Booze" />
+          <span>Booze</span>
+        </div>
+        <div class="icon" data-window="vibes">
+          <img src="https://github.com/DaynaBrislane/Play/blob/main/vibes-icon.png?raw=true" alt="Vibes" />
+          <span>Vibes</span>
+        </div>
+      </div>
+
+      <!-- Popup Windows -->
+      <div id="good-window" class="window folder-window good-folder hidden">
+        <div class="folder-titlebar good-titlebar">
+          <span>Good Things</span>
+          <div class="window-controls">
+            <button class="control-btn minimize">−</button>
+            <button class="control-btn maximize">□</button>
+            <button class="control-btn close">&times;</button>
+          </div>
+        </div>
+        <div class="folder-tabs good-tabs">
+          <button class="folder-tab good-tab active" data-tab="concepts">Concepts</button>
+          <button class="folder-tab good-tab" data-tab="expressions">Expressions</button>
+        </div>
+        <div class="folder-content">
+          <div class="tab-content active" data-tab="concepts">
+            <div class="folder-icon-header">
+              <img src="https://github.com/DaynaBrislane/Play/blob/main/good-icon.png?raw=true" alt="Good" class="folder-mascot" />
+            </div>
+            <div class="file-grid">
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Craic</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Class</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Grand</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Deadly</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Gas</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Sound</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Savage</span>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content" data-tab="expressions">
+            <div class="folder-icon-header">
+              <img src="https://github.com/DaynaBrislane/Play/blob/main/good-icon.png?raw=true" alt="Good" class="folder-mascot" />
+            </div>
+            <div class="file-grid">
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Fair Play</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Sucking Diesel</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Cmere to me</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>A stór</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="bad-window" class="window folder-window hidden">
+        <div class="folder-titlebar">
+          <span>Bad Things</span>
+          <div class="window-controls">
+            <button class="control-btn minimize">−</button>
+            <button class="control-btn maximize">□</button>
+            <button class="control-btn close">&times;</button>
+          </div>
+        </div>
+        <div class="folder-tabs">
+          <button class="folder-tab active" data-tab="people">People</button>
+          <button class="folder-tab" data-tab="concepts">Concepts</button>
+        </div>
+        <div class="folder-content">
+          <div class="tab-content active" data-tab="people">
+            <div class="folder-icon-header">
+              <img src="https://github.com/DaynaBrislane/Play/blob/main/badicon.png?raw=true" alt="Bad" class="folder-mascot" />
+            </div>
+            <div class="file-grid">
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Eejit</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Gobshite</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Melt</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Dope</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Dose</span>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content" data-tab="concepts">
+            <div class="folder-icon-header">
+              <img src="https://github.com/DaynaBrislane/Play/blob/main/badicon.png?raw=true" alt="Bad" class="folder-mascot" />
+            </div>
+            <div class="file-grid">
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Wrecked</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Knackered</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Banjaxed</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>In bits</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>No Craic</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>I will yeah</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Giving Out</span>
+              </div>
+              <div class="file-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+                <span>Brutal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Definition Popup -->
+      <div id="definition-popup" class="window definition-window hidden">
+        <div class="folder-titlebar">
+          <span>Bad Things</span>
+          <div class="window-controls">
+            <button class="control-btn minimize">−</button>
+            <button class="control-btn maximize">□</button>
+            <button class="control-btn close">&times;</button>
+          </div>
+        </div>
+        <div class="definition-content">
+          <h2 class="def-word">Wrecked</h2>
+          <div class="def-meta">
+            <span class="def-pronunciation">[reck-ed]</span>
+            <span class="def-type">adjective</span>
+          </div>
+          <p class="def-meaning">☞ Really Tired</p>
+          <p class="def-american"><span class="def-american-label">American Equivalent: </span><span class="def-american-value">Hella Fried</span></p>
+        </div>
+      </div>
+
+      <div id="booze-window" class="window folder-window booze-folder hidden">
+        <div class="folder-titlebar booze-titlebar">
+          <span>Booze</span>
+          <div class="window-controls">
+            <button class="control-btn minimize">−</button>
+            <button class="control-btn maximize">□</button>
+            <button class="control-btn close">&times;</button>
+          </div>
+        </div>
+        <div class="folder-content">
+          <div class="folder-icon-header">
+            <img src="https://github.com/DaynaBrislane/Play/blob/main/booze-icon.png?raw=true" alt="Booze" class="folder-mascot" />
+          </div>
+          <div class="file-grid">
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Polluted</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Naggin</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Daddy Naggin</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Prink</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Langers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="vibes-window" class="window folder-window vibes-folder hidden">
+        <div class="folder-titlebar vibes-titlebar">
+          <span>Vibes</span>
+          <div class="window-controls">
+            <button class="control-btn minimize">−</button>
+            <button class="control-btn maximize">□</button>
+            <button class="control-btn close">&times;</button>
+          </div>
+        </div>
+        <div class="folder-content">
+          <div class="folder-icon-header">
+            <img src="https://github.com/DaynaBrislane/Play/blob/main/vibes-icon.png?raw=true" alt="Vibes" class="folder-mascot" />
+          </div>
+          <div class="file-grid">
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Yoke</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Yer man</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Culchie</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Gaff</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Scarlett</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Yer One</span>
+            </div>
+            <div class="file-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+              <span>Rake of Lads</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dayna Popup -->
+      <div id="dayna-window" class="window dayna-window hidden">
+        <div class="folder-titlebar dayna-titlebar">
+          <span></span>
+          <div class="window-controls">
+            <button class="control-btn minimize">−</button>
+            <button class="control-btn maximize">□</button>
+            <button class="control-btn close">&times;</button>
+          </div>
+        </div>
+        <div class="dayna-content">
+          <img src="https://github.com/DaynaBrislane/Play/blob/main/Dayna.png?raw=true" alt="Dayna" />
+        </div>
+      </div>
+
+      <div class="taskbar">
+        <button class="start-btn">DAYNA MADE THIS</button>
+        <div class="taskbar-items"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
