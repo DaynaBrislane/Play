@@ -263,7 +263,7 @@ function getThemeClass(windowEl) {
 
 // Desktop Icon Click Handler
 document.querySelectorAll('.icon').forEach(icon => {
-  icon.addEventListener('dblclick', () => {
+  icon.addEventListener('click', () => {
     const windowId = icon.dataset.window;
     const windowEl = document.getElementById(`${windowId}-window`);
     if (windowEl) {
@@ -309,7 +309,7 @@ document.querySelectorAll('.window').forEach(windowEl => {
 
 // File Icon Click - Show Definition Popup
 document.querySelectorAll('.file-icon').forEach(fileIcon => {
-  fileIcon.addEventListener('dblclick', () => {
+  fileIcon.addEventListener('click', () => {
     const word = fileIcon.querySelector('span').textContent;
     const def = definitions[word];
 
