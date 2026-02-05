@@ -67,7 +67,7 @@ const definitions = {
     american: 'A drag'
   },
   'Dose': {
-    pronunciation: '[ee-jit]',
+    pronunciation: '[Doe-ss]',
     type: 'adjective',
     meaning: 'Also annoying person',
     context: 'A bad dose means a bad flu so this person is annoying like having the flu'
