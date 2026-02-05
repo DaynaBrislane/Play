@@ -37,7 +37,7 @@ const definitions = {
     american: 'I will not, yeahhhh right'
   },
   'Giving Out': {
-    pronunciation: '[I will yeah]',
+    pronunciation: '[Giving Out]',
     type: 'Statement',
     meaning: 'Complaining or scolding',
     american: 'Bitching and Moaning'
