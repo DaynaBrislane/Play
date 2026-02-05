@@ -136,7 +136,7 @@ const definitions = {
     pronunciation: '[C\'mere to me]',
     type: 'Phrase',
     meaning: 'I want to tell you something/ I want to hug you',
-    american: 'Aint the sharpest tool in the shed'
+    american: 'IDK'
   },
   'A stór': {
     pronunciation: '[Ah store]',
