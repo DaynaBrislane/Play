@@ -43,7 +43,7 @@ const definitions = {
     american: 'Bitching and Moaning'
   },
   'Brutal': {
-    pronunciation: '[I will yeah]',
+    pronunciation: '[Brew-tull]',
     type: 'Statement',
     meaning: 'Awful',
     american: 'Trash'
