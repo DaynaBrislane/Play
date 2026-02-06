@@ -190,7 +190,7 @@ const definitions = {
     pronunciation: '[Kull-chee]',
     type: 'Noun',
     meaning: 'Someone from the countryside',
-    american: 'IDK'
+    american: 'Idk hillbilly feels too harsh - is hillbilly pc?'
   },
   'Gaff': {
     pronunciation: '[Gaff]',
