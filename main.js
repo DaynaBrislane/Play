@@ -75,7 +75,7 @@ const definitions = {
   'Dope': {
     pronunciation: '[dope]',
     type: 'adjective',
-    meaning: 'Someone not firing on all cylanders',
+    meaning: 'Someone not firing on all cylinders',
     american: 'Aint the sharpest tool in the shed'
   },
   'Craic': {
